@@ -1,0 +1,27 @@
+<div
+  class="container"
+  style="border:10px solid rgb(121, 105, 139);margin-top:100px;padding:50px;border-radius: 25%"
+  *ngIf="hectic"
+>
+  <h2 class="text-center">{{ hectic.name | uppercase }} Details</h2>
+
+  <div class="row justify-content-center my-5">
+    <div class="list-group col-12 col-md-6 ">
+      <div>id: {{ hectic.id }}</div>
+      <div>
+        name:
+        <input
+          [(ngModel)]="hectic.name"
+          placeholder="Edit To-Do"
+          style="padding:10px;border-radius:10px"
+        />
+      </div>
+      <div class="my-5">
+        <button class="btn btn-outline-primary mr-2 " (click)="goBack()">
+          go back
+        </button>
+        <button class="btn btn-outline-dark" (click)="save()">save</button>
+      </div>
+    </div>
+  </div>
+</div>

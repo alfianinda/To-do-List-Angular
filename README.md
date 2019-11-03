@@ -1,27 +1,31 @@
-# MyFirstApp
+# To-Do-List My-First-Angular-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+> This simple to-do app is my firs app that I made using Angular
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+# install dependencies
+$ npm install
+```
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+# serve with hot reload at localhost:4200
+$ ng serve --open
+```
 
-## Build
+## Built With
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+I used HTML, Bootstrap, Angular in building this program
 
-## Running unit tests
+## Contributing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Running end-to-end tests
+Please make sure to update tests as appropriate.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Developer
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- **NUR INNA ALFIANINDA**
