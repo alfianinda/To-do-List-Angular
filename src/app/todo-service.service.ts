@@ -37,7 +37,7 @@ export class TodoService {
     );
   }
 
-  getFoodNo404<Data>(id: number): Observable<Todos> {
+  getTodoNo404<Data>(id: number): Observable<Todos> {
     const url = `${this.todosUrl}/?id=${id}`;
     return this.http.get<Todos[]>(url).pipe(
       map(Todos => Todos[0]), // returns a {0|1} element array
@@ -49,6 +49,7 @@ export class TodoService {
     );
   }
 
+  //update
   updateTodo(hectic: Todos): Observable<any> {
     return this.http.put(this.todosUrl, hectic, this.httpOptions).pipe(
       tap(_ => this.log(`update todo id=${hectic.id}`)),
